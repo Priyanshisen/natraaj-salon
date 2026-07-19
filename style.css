@@ -865,19 +865,19 @@ h1, h2, h3, h4 {
 }
 
 .logo-fix-henna {
-  top: 48.5%;
-  left: 49.2%;
-  width: 54px;
-  height: 54px;
-  font-size: 1.8rem;
+  top: 48.7%;
+  left: 49.3%;
+  width: 38px;
+  height: 38px;
+  font-size: 1.3rem;
 }
 
 .logo-fix-oil {
   top: 50.8%;
-  left: 50%;
-  width: 66px;
-  height: 66px;
-  font-size: 2.2rem;
+  left: 49.8%;
+  width: 46px;
+  height: 46px;
+  font-size: 1.6rem;
 }
 
 .product-card:hover .product-image img {
