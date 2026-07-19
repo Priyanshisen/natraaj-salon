@@ -1474,6 +1474,8 @@ select.form-input {
 
   .nav-links a {
     font-size: 1.1rem;
+    padding: 10px 20px; /* Larger tap targets */
+    display: inline-block;
   }
 
   .hamburger {
@@ -1514,6 +1516,16 @@ select.form-input {
   .shop-grid {
     grid-template-columns: 1fr;
   }
+
+  .modal-content {
+    width: 95%;
+    padding: 24px;
+    max-height: 85vh;
+  }
+
+  .form-input {
+    font-size: 16px; /* Prevents iOS auto-zoom on input focus */
+  }
 }
 
 @media (max-width: 480px) {
@@ -1524,6 +1536,7 @@ select.form-input {
   .hero-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 16px; /* Space out the buttons */
   }
 
   .hero-buttons .btn {
