@@ -1480,6 +1480,11 @@ select.form-input {
     display: flex;
   }
 
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
   .hero h1 {
     font-size: clamp(2rem, 7vw, 3rem);
   }
