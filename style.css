@@ -849,9 +849,43 @@ h1, h2, h3, h4 {
   transition: transform .6s var(--ease);
 }
 
+.logo-fix {
+  position: absolute;
+  background: #181818;
+  color: var(--white);
+  border-radius: 50%;
+  font-family: var(--ff-script);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: transform .6s var(--ease);
+  z-index: 5;
+}
+
+.logo-fix-henna {
+  top: 48.5%;
+  left: 50.3%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+}
+
+.logo-fix-oil {
+  top: 52%;
+  left: 50.5%;
+  width: 62px;
+  height: 62px;
+  font-size: 2.2rem;
+}
 
 .product-card:hover .product-image img {
   transform: scale(1.08);
+}
+
+.product-card:hover .logo-fix {
+  transform: translate(-50%, -50%) scale(1.08);
 }
 
 .product-image::after {
