@@ -17,7 +17,7 @@ The salon offers expert hair, skin, and bridal services, along with handcrafted,
 - **FormSubmit:** Secure email forwarding for appointments and orders.
 
 ## 🚀 Deployment
-This website is a static single-page application and is optimized to be deployed seamlessly on **Vercel**, Netlify, or GitHub Pages.
+This website is a static single-page application and is optimized to be deployed seamlessly on **Vercel**(https://natraaj-salon.vercel.app/), Netlify, or GitHub Pages.
 
 ## 📸 Preview
 *A beautifully crafted digital storefront representing the elegance and authenticity of Natraaj Beauty Salon.*
